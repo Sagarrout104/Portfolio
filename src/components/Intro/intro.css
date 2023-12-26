@@ -92,5 +92,26 @@
   }
   .introContent {
     color: black;
+    position: relative;
+    left: 1.5rem;
+  }
+  .introName {
+    font-weight: 100;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .bg {
+    right: -10vw;
+  }
+  .introContent {
+    position: relative;
+    left: 1.5rem;
+    color: black;
+  }
+  .introName {
+    font-weight: 100;
+    font-size: 2rem;
   }
 }
