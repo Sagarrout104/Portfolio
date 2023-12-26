@@ -36,11 +36,11 @@ const Skills = () => {
           <div className="skillBarText">
             <h3>Front End Developer</h3>
             <p>
-              <FaHtml5 color="#FF4B00" size={30} />
-              <FaCss3 color="006BC0" size={30} />
-              <IoLogoJavascript color="yellow" size={30} />
-              <FaBootstrap color="#563D7C" size={30} />
-              <FaReact color="#149ECA" size={30} />
+              <FaHtml5 color="#FF4B00" size={30} title="html" />
+              <FaCss3 color="006BC0" size={30} title="css" />
+              <IoLogoJavascript color="yellow" size={30} title="javascript" />
+              <FaBootstrap color="#563D7C" size={30} title="bootstrap" />
+              <FaReact color="#149ECA" size={30} title="reactJs" />
             </p>
           </div>
         </div>
@@ -49,11 +49,11 @@ const Skills = () => {
           <div className="skillBarText">
             <h3>Back End Developer</h3>
             <p>
-              <FaNodeJs color="#72BD55" size={30} />
-              <SiExpress color="#fff" size={30} />
-              <FaPhp color="#4D588E" size={30} />
-              <DiMongodb color="4FA93F" size={30} />
-              <TbBrandMysql color="#015B85" size={30} />
+              <FaNodeJs color="#72BD55" size={30} title="nodeJs" />
+              <SiExpress color="#fff" size={30} title="expressJs" />
+              <FaPhp color="#4D588E" size={30} title="php" />
+              <DiMongodb color="4FA93F" size={30} title="mngoDB" />
+              <TbBrandMysql color="#015B85" size={30} title="mysql" />
             </p>
           </div>
         </div>
@@ -62,10 +62,10 @@ const Skills = () => {
           <div className="skillBarText">
             <h3>Other Tools</h3>
             <p>
-              <FaWordpress color="#1E8CBE" size={30} />
-              <FaGithub color="fff" size={30} />
-              <SiVisualstudiocode color="006BC0" size={30} />
-              <SiPostman color="#F76935" size={30} />
+              <FaWordpress color="#1E8CBE" size={30} title="wordpress" />
+              <FaGithub color="fff" size={30} title="github" />
+              <SiVisualstudiocode color="006BC0" size={30} title="vs-code" />
+              <SiPostman color="#F76935" size={30} title="postman" />
             </p>
           </div>
         </div>

@@ -76,6 +76,9 @@
   #skills {
     min-height: calc(100vh - 18rem);
   }
+  .skillBars {
+    max-width: 95%;
+  }
 
   .skillBarText > p {
     font-size: 3vw;
