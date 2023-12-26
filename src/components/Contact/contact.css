@@ -76,6 +76,9 @@
   #contact {
     min-height: calc(100vh - 20rem);
   }
+  .links {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 770px) {

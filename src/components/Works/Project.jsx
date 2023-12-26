@@ -17,8 +17,23 @@ const Project = () => {
             portfolio website full responsive.
           </div>
           <div className="card-buttons">
-            <button className="card-button">Live View</button>
-            <button className="card-button">Source Code</button>
+            <button className="card-button">
+              <a
+                href="https://sagarrout104.github.io/Portfolio/"
+                target="_blank"
+              >
+                Live Preview
+              </a>
+            </button>
+
+            <button className="card-button">
+              <a
+                href="https://github.com/Sagarrout104/Portfolio"
+                target="_blank"
+              >
+                Source Code
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -32,7 +47,7 @@ const Project = () => {
             instead a sample for communication purposes.
           </div>
           <div className="card-buttons">
-            <button className="card-button">Live View</button>
+            <button className="card-button">Live Preview</button>
             <button className="card-button">Source Code</button>
           </div>
         </div>
@@ -46,7 +61,7 @@ const Project = () => {
             instead a sample for communication purposes.
           </div>
           <div className="card-buttons">
-            <button className="card-button">Live View</button>
+            <button className="card-button">Live Preview</button>
             <button className="card-button">Source Code</button>
           </div>
         </div>
@@ -60,7 +75,7 @@ const Project = () => {
             instead a sample for communication purposes.
           </div>
           <div className="card-buttons">
-            <button className="card-button">Live View</button>
+            <button className="card-button">Live Preview</button>
             <button className="card-button">Source Code</button>
           </div>
         </div>
@@ -74,7 +89,7 @@ const Project = () => {
             instead a sample for communication purposes.
           </div>
           <div className="card-buttons">
-            <button className="card-button">Live View</button>
+            <button className="card-button">Live Preview</button>
             <button className="card-button">Source Code</button>
           </div>
         </div>
@@ -88,7 +103,7 @@ const Project = () => {
             instead a sample for communication purposes.
           </div>
           <div className="card-buttons">
-            <button className="card-button">Live View</button>
+            <button className="card-button">Live Preview</button>
             <button className="card-button">Source Code</button>
           </div>
         </div>

@@ -57,6 +57,9 @@
   transition: background-color 0.3s;
   background-color: rgb(255, 132, 0);
 }
+.card-button > a {
+  color: black;
+}
 
 .card-button:first-child {
   margin-right: 8px;
