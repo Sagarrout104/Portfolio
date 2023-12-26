@@ -1,0 +1,85 @@
+#contact {
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactPageTitle {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+.success-msg {
+  color: green;
+}
+
+.submitBtn {
+  margin: 2rem;
+  padding: 0.75rem 3.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: rgb(255, 132, 0);
+}
+
+.submitBtn:hover {
+  background-color: #ddd;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.link {
+  object-fit: contain;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.link:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 480px) {
+  #contact {
+    min-height: calc(100vh - 20rem);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #contact {
+    min-height: calc(100vh - 20rem);
+  }
+}

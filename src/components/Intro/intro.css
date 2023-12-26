@@ -1,0 +1,96 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: -0.1rem;
+  right: 3.8rem;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+  /* filter: drop-shadow(0 0 2px #fff); */
+}
+
+.introContent {
+  position: absolute;
+  left: 5rem;
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+.i {
+  color: rgb(255, 132, 0);
+  font-size: 2rem;
+}
+.introName {
+  /* color: rgb(255, 132, 0); */
+  font-weight: 100;
+  font-size: 2.8rem;
+}
+
+.git-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: rgb(255, 132, 0);
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+.btn > a {
+  color: #000;
+  font-weight: 100;
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 840px) {
+  .bg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    right: -30vw;
+  }
+  .introContent {
+    color: black;
+  }
+}
